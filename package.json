@@ -1,0 +1,21 @@
+{
+  "name": "chrome_extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+      "build": "webpack --config webpack/webpack.config.js",
+      "dev": "webpack --watch --config webpack/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "copy-webpack-plugin": "^12.0.2",
+    "glob": "^11.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
